@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 // globals
 dotenv.config();
 
-// connect to mongo
+// connect to mongo atlas
 mongoose.connect(
   process.env.MONGO_CONNECTION_STR,
 {
