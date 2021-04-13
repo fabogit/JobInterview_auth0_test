@@ -32,23 +32,3 @@ app.use("/auth", authRoutes)
 
 
 app.listen(3000, () => console.log("server is running..."))
-
-
-
-
-
-
-
-
-
-
-// // mongo connection
-// const uri = "mongodb+srv://${mongo_user}:<${mongo_pwd}>@cluster0.x8yyx.mongodb.net/${mongo_dbs}?retryWrites=true&w=majority"
-// const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true })
-
-// client.connect(err => {
-//   const collection = client.db("test").collection("devices");
-//   // perform actions on the collection object
-//   () => console.log("connected to db")
-//   client.close();
-// })
